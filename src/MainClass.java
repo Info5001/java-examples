@@ -24,8 +24,8 @@ public class MainClass {
         boolean falseAndFalse = isFalse && isFalse; // this will result false;
 
         boolean trueOrTrue = isTrue || isTrue; // this will result true;
-        boolean trueOrFalse = isTrue && isFalse; // this will result true;
-        boolean falseOrFalse = isFalse && isFalse; // this will result false;
+        boolean trueOrFalse = isTrue || isFalse; // this will result true;
+        boolean falseOrFalse = isFalse || isFalse; // this will result false;
 
         /*
          * You can combine more than two boolean variables or conditions and use
@@ -86,9 +86,9 @@ public class MainClass {
          */
 
         ArrayList<String> colors = new ArrayList<String>();
-        colors.add("red");
-        colors.add("yellow");
-        colors.add("white");
+        colors.add("red"); // 0
+        colors.add("yellow"); // 1 
+        colors.add("white"); // 2
         colors.add("green");
         colors.add("blue");
         colors.add("purple");
@@ -185,7 +185,7 @@ public class MainClass {
          * The expression/variable inside print() or println() should be string.
          * Or smth than can be converted to string.
          * 
-         * In the example below `+` does concatenate (or simply glues) the text
+         * In the example below `+` does concatinate (or simply glues) the text
          * fragments together.
          */
 
